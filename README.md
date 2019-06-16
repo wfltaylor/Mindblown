@@ -7,10 +7,11 @@ A screensaver based off graphics and animations from WWDC19
 
 # Installing
 
-1. Fully close system preferences
+1. Fully close System Preferences
 2. Download Mindblown from releases
 3. Use your secondary click (two fingers or right click) on the downloaded file and select `Open`
 4. Click `Open Anyway`
+5. If System Preferences says that the screensaver isn't compatible with your version of macOS, completely close and reopen System Preferences
 
 # Features
 
