@@ -1,10 +1,9 @@
-
-# Mindblown
-A screensaver based off graphics and animations from WWDC19
-
 <p align="center">
     <img src="https://github.com/wfltaylor/Mindblown/raw/master/demovideo.gif?raw=true" alt="Demo Video"/>
 </p>
+
+# Mindblown
+A screensaver based off graphics and animations from WWDC19
 
 # Installing
 
