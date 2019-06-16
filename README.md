@@ -17,3 +17,9 @@ A screensaver based off graphics and animations from WWDC19
 1. No internet connection required
 2. Select only the animations you like
 3. 2D and 3D mode avaliable
+
+# License
+
+BubbleBlurView is available under the MIT license. See the LICENSE file for more info.
+
+Original graphics and animations are property of Apple Inc.
