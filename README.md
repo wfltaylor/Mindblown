@@ -12,4 +12,8 @@ A screensaver based off graphics and animations from WWDC19
 3. Use your secondary click (two fingers or right click) on the downloaded file and select `Open`
 4. Click `Open Anyway`
 
+# Features
 
+1. No internet connection required
+2. Select only the animations you like
+3. 2D and 3D mode avaliable
