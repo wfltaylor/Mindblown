@@ -7,19 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C1A987422B39D4A00EE1C84 /* MindblownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1A987322B39D4A00EE1C84 /* MindblownView.h */; };
-		9C1A987622B39D4A00EE1C84 /* MindblownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A987522B39D4A00EE1C84 /* MindblownView.m */; };
+		9C1A987E22B39DEA00EE1C84 /* MindblownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A987D22B39DEA00EE1C84 /* MindblownView.swift */; };
+		9C27090F22B4E75100F16834 /* PreferenceSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C27090E22B4E75000F16834 /* PreferenceSheetController.xib */; };
+		9C27091022B4E75100F16834 /* PreferenceSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C27090E22B4E75000F16834 /* PreferenceSheetController.xib */; };
+		9C27091122B4E75100F16834 /* PreferenceSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C27090E22B4E75000F16834 /* PreferenceSheetController.xib */; };
+		9C27091322B5028100F16834 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27091222B5028100F16834 /* Array+Safe.swift */; };
+		9C27091422B5028100F16834 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27091222B5028100F16834 /* Array+Safe.swift */; };
+		9C27091522B5028100F16834 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27091222B5028100F16834 /* Array+Safe.swift */; };
+		9C27092322B5C71600F16834 /* monkey_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27091F22B5C71300F16834 /* monkey_2D.mp4 */; };
+		9C27092422B5C71600F16834 /* monkey_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27091F22B5C71300F16834 /* monkey_2D.mp4 */; };
+		9C27092522B5C71600F16834 /* monkey_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27091F22B5C71300F16834 /* monkey_2D.mp4 */; };
+		9C27092922B5C71600F16834 /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27092122B5C71500F16834 /* skull_2D.mp4 */; };
+		9C27092A22B5C71600F16834 /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27092122B5C71500F16834 /* skull_2D.mp4 */; };
+		9C27092B22B5C71600F16834 /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27092122B5C71500F16834 /* skull_2D.mp4 */; };
+		9C27093422B5CD0100F16834 /* robot_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093322B5CD0100F16834 /* robot_2D.mp4 */; };
+		9C27093522B5CD0100F16834 /* robot_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093322B5CD0100F16834 /* robot_2D.mp4 */; };
+		9C27093622B5CD0100F16834 /* robot_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093322B5CD0100F16834 /* robot_2D.mp4 */; };
+		9C27093D22B5CF2400F16834 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093B22B5CF2400F16834 /* thumbnail.png */; };
+		9C27093E22B5CF2400F16834 /* thumbnail@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093C22B5CF2400F16834 /* thumbnail@2.png */; };
+		9C27094022B5CF8500F16834 /* thumbnail@3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093F22B5CF8400F16834 /* thumbnail@3.png */; };
+		9C27094222B5E91700F16834 /* alien_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094122B5E91700F16834 /* alien_2D.mp4 */; };
+		9C27094322B5E91700F16834 /* alien_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094122B5E91700F16834 /* alien_2D.mp4 */; };
+		9C27094422B5E91700F16834 /* alien_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094122B5E91700F16834 /* alien_2D.mp4 */; };
+		9C27094622B5E95D00F16834 /* alien_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094522B5E95C00F16834 /* alien_3D.mp4 */; };
+		9C27094722B5E95D00F16834 /* alien_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094522B5E95C00F16834 /* alien_3D.mp4 */; };
+		9C27094822B5E95D00F16834 /* alien_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094522B5E95C00F16834 /* alien_3D.mp4 */; };
+		9C27094A22B5E96200F16834 /* monkey_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094922B5E96100F16834 /* monkey_3D.mp4 */; };
+		9C27094B22B5E96200F16834 /* monkey_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094922B5E96100F16834 /* monkey_3D.mp4 */; };
+		9C27094C22B5E96200F16834 /* monkey_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094922B5E96100F16834 /* monkey_3D.mp4 */; };
+		9C27094E22B5E96800F16834 /* chicken_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094D22B5E96800F16834 /* chicken_3D.mp4 */; };
+		9C27094F22B5E96800F16834 /* chicken_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094D22B5E96800F16834 /* chicken_3D.mp4 */; };
+		9C27095022B5E96800F16834 /* chicken_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094D22B5E96800F16834 /* chicken_3D.mp4 */; };
+		9CF9B8C922B3A06B0026517B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8C822B3A06B0026517B /* AppDelegate.swift */; };
+		9CF9B8CB22B3A06C0026517B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8CA22B3A06C0026517B /* Assets.xcassets */; };
+		9CF9B8CE22B3A06C0026517B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8CC22B3A06C0026517B /* MainMenu.xib */; };
+		9CF9B8D422B3A08D0026517B /* MindblownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A987D22B39DEA00EE1C84 /* MindblownView.swift */; };
+		9CF9B8E022B3B1AD0026517B /* PreferenceSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8DF22B3B1AD0026517B /* PreferenceSheetController.swift */; };
+		9CF9B8E122B3B1AD0026517B /* PreferenceSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8DF22B3B1AD0026517B /* PreferenceSheetController.swift */; };
+		9CF9B8EC22B3C0CD0026517B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8EB22B3C0CD0026517B /* AppDelegate.swift */; };
+		9CF9B8EE22B3C0CE0026517B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8ED22B3C0CE0026517B /* Assets.xcassets */; };
+		9CF9B8F122B3C0CE0026517B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8EF22B3C0CE0026517B /* MainMenu.xib */; };
+		9CF9B8F722B3C0D20026517B /* PreferenceSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8DF22B3B1AD0026517B /* PreferenceSheetController.swift */; };
+		9CF9B90222B4AB1A0026517B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90122B4AB1A0026517B /* Animation.swift */; };
+		9CF9B90322B4AB1A0026517B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90122B4AB1A0026517B /* Animation.swift */; };
+		9CF9B90422B4AB1A0026517B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90122B4AB1A0026517B /* Animation.swift */; };
+		9CF9B90622B4ACA80026517B /* MindblownPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90522B4ACA80026517B /* MindblownPlayer.swift */; };
+		9CF9B90722B4ACA80026517B /* MindblownPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90522B4ACA80026517B /* MindblownPlayer.swift */; };
+		9CF9B90822B4ACA80026517B /* MindblownPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90522B4ACA80026517B /* MindblownPlayer.swift */; };
+		9CF9B90A22B4B6530026517B /* robot_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B90922B4B6530026517B /* robot_3D.mp4 */; };
+		9CF9B90B22B4B6530026517B /* robot_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B90922B4B6530026517B /* robot_3D.mp4 */; };
+		9CF9B90C22B4B6530026517B /* robot_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B90922B4B6530026517B /* robot_3D.mp4 */; };
+		9CF9B90E22B4B91B0026517B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90D22B4B91B0026517B /* Defaults.swift */; };
+		9CF9B90F22B4B91B0026517B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90D22B4B91B0026517B /* Defaults.swift */; };
+		9CF9B91022B4B91B0026517B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90D22B4B91B0026517B /* Defaults.swift */; };
+		9CF9B91322B4BF6C0026517B /* Screensaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91222B4BF6C0026517B /* Screensaver.swift */; };
+		9CF9B91622B4C8EE0026517B /* CheckboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91522B4C8EE0026517B /* CheckboxTableViewCell.swift */; };
+		9CF9B91722B4C8EE0026517B /* CheckboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91522B4C8EE0026517B /* CheckboxTableViewCell.swift */; };
+		9CF9B91822B4C8EE0026517B /* CheckboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91522B4C8EE0026517B /* CheckboxTableViewCell.swift */; };
+		9CF9B91B22B4D06C0026517B /* Array+Appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91A22B4D06C0026517B /* Array+Appending.swift */; };
+		9CF9B91C22B4D06C0026517B /* Array+Appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91A22B4D06C0026517B /* Array+Appending.swift */; };
+		9CF9B91D22B4D06C0026517B /* Array+Appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91A22B4D06C0026517B /* Array+Appending.swift */; };
+		9CF9B91F22B4D1620026517B /* Array+RemovingAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */; };
+		9CF9B92022B4D1620026517B /* Array+RemovingAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */; };
+		9CF9B92122B4D1620026517B /* Array+RemovingAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C1A987022B39D4A00EE1C84 /* Mindblown.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mindblown.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C1A987322B39D4A00EE1C84 /* MindblownView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindblownView.h; sourceTree = "<group>"; };
-		9C1A987522B39D4A00EE1C84 /* MindblownView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindblownView.m; sourceTree = "<group>"; };
 		9C1A987722B39D4A00EE1C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1A987D22B39DEA00EE1C84 /* MindblownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindblownView.swift; sourceTree = "<group>"; };
+		9C27090E22B4E75000F16834 /* PreferenceSheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceSheetController.xib; sourceTree = "<group>"; };
+		9C27091222B5028100F16834 /* Array+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
+		9C27091F22B5C71300F16834 /* monkey_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_2D.mp4; sourceTree = "<group>"; };
+		9C27092122B5C71500F16834 /* skull_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_2D.mp4; sourceTree = "<group>"; };
+		9C27093322B5CD0100F16834 /* robot_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_2D.mp4; sourceTree = "<group>"; };
+		9C27093B22B5CF2400F16834 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		9C27093C22B5CF2400F16834 /* thumbnail@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2.png"; sourceTree = "<group>"; };
+		9C27093F22B5CF8400F16834 /* thumbnail@3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@3.png"; sourceTree = "<group>"; };
+		9C27094122B5E91700F16834 /* alien_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_2D.mp4; sourceTree = "<group>"; };
+		9C27094522B5E95C00F16834 /* alien_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_3D.mp4; sourceTree = "<group>"; };
+		9C27094922B5E96100F16834 /* monkey_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_3D.mp4; sourceTree = "<group>"; };
+		9C27094D22B5E96800F16834 /* chicken_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_3D.mp4; sourceTree = "<group>"; };
+		9CF9B8C622B3A06B0026517B /* Mindblown Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindblown Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF9B8C822B3A06B0026517B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF9B8CA22B3A06C0026517B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF9B8CD22B3A06C0026517B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9CF9B8CF22B3A06C0026517B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF9B8D022B3A06C0026517B /* Mindblown_Test_Host.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mindblown_Test_Host.entitlements; sourceTree = "<group>"; };
+		9CF9B8DF22B3B1AD0026517B /* PreferenceSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceSheetController.swift; sourceTree = "<group>"; };
+		9CF9B8E922B3C0CD0026517B /* Mindblown Preferences Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindblown Preferences Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF9B8EB22B3C0CD0026517B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF9B8ED22B3C0CE0026517B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF9B8F022B3C0CE0026517B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9CF9B8F222B3C0CE0026517B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF9B8F322B3C0CE0026517B /* Mindblown_Preferences_Host.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mindblown_Preferences_Host.entitlements; sourceTree = "<group>"; };
+		9CF9B90122B4AB1A0026517B /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		9CF9B90522B4ACA80026517B /* MindblownPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindblownPlayer.swift; sourceTree = "<group>"; };
+		9CF9B90922B4B6530026517B /* robot_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_3D.mp4; sourceTree = "<group>"; };
+		9CF9B90D22B4B91B0026517B /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		9CF9B91222B4BF6C0026517B /* Screensaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screensaver.swift; sourceTree = "<group>"; };
+		9CF9B91422B4BFCC0026517B /* Mindblown Host.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mindblown Host.entitlements"; sourceTree = "<group>"; };
+		9CF9B91522B4C8EE0026517B /* CheckboxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxTableViewCell.swift; sourceTree = "<group>"; };
+		9CF9B91A22B4D06C0026517B /* Array+Appending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Appending.swift"; sourceTree = "<group>"; };
+		9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RemovingAll.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9C1A986D22B39D4A00EE1C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8C322B3A06B0026517B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8E622B3C0CD0026517B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				9C1A987222B39D4A00EE1C84 /* Mindblown */,
+				9CF9B8C722B3A06B0026517B /* Mindblown Host */,
+				9CF9B8EA22B3C0CD0026517B /* Mindblown Preferences Host */,
 				9C1A987122B39D4A00EE1C84 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				9C1A987022B39D4A00EE1C84 /* Mindblown.saver */,
+				9CF9B8C622B3A06B0026517B /* Mindblown Host.app */,
+				9CF9B8E922B3C0CD0026517B /* Mindblown Preferences Host.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,11 +160,112 @@
 		9C1A987222B39D4A00EE1C84 /* Mindblown */ = {
 			isa = PBXGroup;
 			children = (
-				9C1A987322B39D4A00EE1C84 /* MindblownView.h */,
-				9C1A987522B39D4A00EE1C84 /* MindblownView.m */,
+				9C27093B22B5CF2400F16834 /* thumbnail.png */,
+				9C27093C22B5CF2400F16834 /* thumbnail@2.png */,
+				9C27093F22B5CF8400F16834 /* thumbnail@3.png */,
 				9C1A987722B39D4A00EE1C84 /* Info.plist */,
+				9CF9B91222B4BF6C0026517B /* Screensaver.swift */,
+				9CF9B8DC22B3B1220026517B /* Screensaver */,
+				9CF9B8DE22B3B19B0026517B /* Preference Sheet */,
+				9CF9B8D722B3AF870026517B /* Animations */,
+				9CF9B91122B4B9210026517B /* Defaults */,
+				9CF9B91922B4D04F0026517B /* Extensions */,
 			);
 			path = Mindblown;
+			sourceTree = "<group>";
+		};
+		9C27091622B5B75000F16834 /* 2D */ = {
+			isa = PBXGroup;
+			children = (
+				9C27093322B5CD0100F16834 /* robot_2D.mp4 */,
+				9C27094122B5E91700F16834 /* alien_2D.mp4 */,
+				9C27091F22B5C71300F16834 /* monkey_2D.mp4 */,
+				9C27092122B5C71500F16834 /* skull_2D.mp4 */,
+			);
+			path = 2D;
+			sourceTree = "<group>";
+		};
+		9CF9B8C722B3A06B0026517B /* Mindblown Host */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B91422B4BFCC0026517B /* Mindblown Host.entitlements */,
+				9CF9B8C822B3A06B0026517B /* AppDelegate.swift */,
+				9CF9B8CA22B3A06C0026517B /* Assets.xcassets */,
+				9CF9B8CC22B3A06C0026517B /* MainMenu.xib */,
+				9CF9B8CF22B3A06C0026517B /* Info.plist */,
+				9CF9B8D022B3A06C0026517B /* Mindblown_Test_Host.entitlements */,
+			);
+			path = "Mindblown Host";
+			sourceTree = "<group>";
+		};
+		9CF9B8D722B3AF870026517B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B90122B4AB1A0026517B /* Animation.swift */,
+				9C27091622B5B75000F16834 /* 2D */,
+				9CF9B8D822B3AF910026517B /* 3D */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		9CF9B8D822B3AF910026517B /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				9C27094522B5E95C00F16834 /* alien_3D.mp4 */,
+				9C27094D22B5E96800F16834 /* chicken_3D.mp4 */,
+				9CF9B90922B4B6530026517B /* robot_3D.mp4 */,
+				9C27094922B5E96100F16834 /* monkey_3D.mp4 */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+		9CF9B8DC22B3B1220026517B /* Screensaver */ = {
+			isa = PBXGroup;
+			children = (
+				9C1A987D22B39DEA00EE1C84 /* MindblownView.swift */,
+				9CF9B90522B4ACA80026517B /* MindblownPlayer.swift */,
+			);
+			path = Screensaver;
+			sourceTree = "<group>";
+		};
+		9CF9B8DE22B3B19B0026517B /* Preference Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				9C27090E22B4E75000F16834 /* PreferenceSheetController.xib */,
+				9CF9B8DF22B3B1AD0026517B /* PreferenceSheetController.swift */,
+				9CF9B91522B4C8EE0026517B /* CheckboxTableViewCell.swift */,
+			);
+			path = "Preference Sheet";
+			sourceTree = "<group>";
+		};
+		9CF9B8EA22B3C0CD0026517B /* Mindblown Preferences Host */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B8EB22B3C0CD0026517B /* AppDelegate.swift */,
+				9CF9B8ED22B3C0CE0026517B /* Assets.xcassets */,
+				9CF9B8EF22B3C0CE0026517B /* MainMenu.xib */,
+				9CF9B8F222B3C0CE0026517B /* Info.plist */,
+				9CF9B8F322B3C0CE0026517B /* Mindblown_Preferences_Host.entitlements */,
+			);
+			path = "Mindblown Preferences Host";
+			sourceTree = "<group>";
+		};
+		9CF9B91122B4B9210026517B /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B90D22B4B91B0026517B /* Defaults.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		9CF9B91922B4D04F0026517B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B91A22B4D06C0026517B /* Array+Appending.swift */,
+				9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */,
+				9C27091222B5028100F16834 /* Array+Safe.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,7 +275,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1A987422B39D4A00EE1C84 /* MindblownView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,17 +299,69 @@
 			productReference = 9C1A987022B39D4A00EE1C84 /* Mindblown.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
+		9CF9B8C522B3A06B0026517B /* Mindblown Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF9B8D322B3A06C0026517B /* Build configuration list for PBXNativeTarget "Mindblown Host" */;
+			buildPhases = (
+				9CF9B8C222B3A06B0026517B /* Sources */,
+				9CF9B8C322B3A06B0026517B /* Frameworks */,
+				9CF9B8C422B3A06B0026517B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mindblown Host";
+			productName = "Mindblown Test Host";
+			productReference = 9CF9B8C622B3A06B0026517B /* Mindblown Host.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CF9B8E822B3C0CD0026517B /* Mindblown Preferences Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF9B8F422B3C0CE0026517B /* Build configuration list for PBXNativeTarget "Mindblown Preferences Host" */;
+			buildPhases = (
+				9CF9B8E522B3C0CD0026517B /* Sources */,
+				9CF9B8E622B3C0CD0026517B /* Frameworks */,
+				9CF9B8E722B3C0CD0026517B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mindblown Preferences Host";
+			productName = "Mindblown Preferences Host";
+			productReference = 9CF9B8E922B3C0CD0026517B /* Mindblown Preferences Host.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9C1A986722B39D4A00EE1C84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "William Taylor";
 				TargetAttributes = {
 					9C1A986F22B39D4A00EE1C84 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					9CF9B8C522B3A06B0026517B = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+					9CF9B8E822B3C0CD0026517B = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -107,6 +371,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9C1A986622B39D4A00EE1C84;
 			productRefGroup = 9C1A987122B39D4A00EE1C84 /* Products */;
@@ -114,6 +379,8 @@
 			projectRoot = "";
 			targets = (
 				9C1A986F22B39D4A00EE1C84 /* Mindblown */,
+				9CF9B8C522B3A06B0026517B /* Mindblown Host */,
+				9CF9B8E822B3C0CD0026517B /* Mindblown Preferences Host */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +390,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C27092922B5C71600F16834 /* skull_2D.mp4 in Resources */,
+				9C27093422B5CD0100F16834 /* robot_2D.mp4 in Resources */,
+				9C27093D22B5CF2400F16834 /* thumbnail.png in Resources */,
+				9C27092322B5C71600F16834 /* monkey_2D.mp4 in Resources */,
+				9CF9B90A22B4B6530026517B /* robot_3D.mp4 in Resources */,
+				9C27093E22B5CF2400F16834 /* thumbnail@2.png in Resources */,
+				9C27094622B5E95D00F16834 /* alien_3D.mp4 in Resources */,
+				9C27094022B5CF8500F16834 /* thumbnail@3.png in Resources */,
+				9C27094E22B5E96800F16834 /* chicken_3D.mp4 in Resources */,
+				9C27094222B5E91700F16834 /* alien_2D.mp4 in Resources */,
+				9C27094A22B5E96200F16834 /* monkey_3D.mp4 in Resources */,
+				9C27090F22B4E75100F16834 /* PreferenceSheetController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8C422B3A06B0026517B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9B8CB22B3A06C0026517B /* Assets.xcassets in Resources */,
+				9C27091022B4E75100F16834 /* PreferenceSheetController.xib in Resources */,
+				9C27092A22B5C71600F16834 /* skull_2D.mp4 in Resources */,
+				9C27094F22B5E96800F16834 /* chicken_3D.mp4 in Resources */,
+				9CF9B90B22B4B6530026517B /* robot_3D.mp4 in Resources */,
+				9C27092422B5C71600F16834 /* monkey_2D.mp4 in Resources */,
+				9CF9B8CE22B3A06C0026517B /* MainMenu.xib in Resources */,
+				9C27093522B5CD0100F16834 /* robot_2D.mp4 in Resources */,
+				9C27094722B5E95D00F16834 /* alien_3D.mp4 in Resources */,
+				9C27094B22B5E96200F16834 /* monkey_3D.mp4 in Resources */,
+				9C27094322B5E91700F16834 /* alien_2D.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8E722B3C0CD0026517B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C27091122B4E75100F16834 /* PreferenceSheetController.xib in Resources */,
+				9C27092B22B5C71600F16834 /* skull_2D.mp4 in Resources */,
+				9CF9B8EE22B3C0CE0026517B /* Assets.xcassets in Resources */,
+				9C27095022B5E96800F16834 /* chicken_3D.mp4 in Resources */,
+				9C27092522B5C71600F16834 /* monkey_2D.mp4 in Resources */,
+				9CF9B90C22B4B6530026517B /* robot_3D.mp4 in Resources */,
+				9C27093622B5CD0100F16834 /* robot_2D.mp4 in Resources */,
+				9CF9B8F122B3C0CE0026517B /* MainMenu.xib in Resources */,
+				9C27094822B5E95D00F16834 /* alien_3D.mp4 in Resources */,
+				9C27094C22B5E96200F16834 /* monkey_3D.mp4 in Resources */,
+				9C27094422B5E91700F16834 /* alien_2D.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,11 +448,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1A987622B39D4A00EE1C84 /* MindblownView.m in Sources */,
+				9CF9B91B22B4D06C0026517B /* Array+Appending.swift in Sources */,
+				9C1A987E22B39DEA00EE1C84 /* MindblownView.swift in Sources */,
+				9CF9B91322B4BF6C0026517B /* Screensaver.swift in Sources */,
+				9CF9B91622B4C8EE0026517B /* CheckboxTableViewCell.swift in Sources */,
+				9CF9B91F22B4D1620026517B /* Array+RemovingAll.swift in Sources */,
+				9CF9B90222B4AB1A0026517B /* Animation.swift in Sources */,
+				9C27091322B5028100F16834 /* Array+Safe.swift in Sources */,
+				9CF9B90E22B4B91B0026517B /* Defaults.swift in Sources */,
+				9CF9B8E022B3B1AD0026517B /* PreferenceSheetController.swift in Sources */,
+				9CF9B90622B4ACA80026517B /* MindblownPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8C222B3A06B0026517B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9B91C22B4D06C0026517B /* Array+Appending.swift in Sources */,
+				9CF9B8E122B3B1AD0026517B /* PreferenceSheetController.swift in Sources */,
+				9CF9B8C922B3A06B0026517B /* AppDelegate.swift in Sources */,
+				9CF9B91722B4C8EE0026517B /* CheckboxTableViewCell.swift in Sources */,
+				9CF9B92022B4D1620026517B /* Array+RemovingAll.swift in Sources */,
+				9CF9B90322B4AB1A0026517B /* Animation.swift in Sources */,
+				9C27091422B5028100F16834 /* Array+Safe.swift in Sources */,
+				9CF9B90F22B4B91B0026517B /* Defaults.swift in Sources */,
+				9CF9B90722B4ACA80026517B /* MindblownPlayer.swift in Sources */,
+				9CF9B8D422B3A08D0026517B /* MindblownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8E522B3C0CD0026517B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9B8F722B3C0D20026517B /* PreferenceSheetController.swift in Sources */,
+				9CF9B90422B4AB1A0026517B /* Animation.swift in Sources */,
+				9CF9B91822B4C8EE0026517B /* CheckboxTableViewCell.swift in Sources */,
+				9C27091522B5028100F16834 /* Array+Safe.swift in Sources */,
+				9CF9B91022B4B91B0026517B /* Defaults.swift in Sources */,
+				9CF9B92122B4D1620026517B /* Array+RemovingAll.swift in Sources */,
+				9CF9B91D22B4D06C0026517B /* Array+Appending.swift in Sources */,
+				9CF9B8EC22B3C0CD0026517B /* AppDelegate.swift in Sources */,
+				9CF9B90822B4ACA80026517B /* MindblownPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CF9B8CC22B3A06C0026517B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF9B8CD22B3A06C0026517B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9CF9B8EF22B3C0CE0026517B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF9B8F022B3C0CE0026517B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C1A987822B39D4A00EE1C84 /* Debug */ = {
@@ -254,13 +630,21 @@
 		9C1A987B22B39D4A00EE1C84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5RTMJNH82H;
-				INFOPLIST_FILE = Mindblown/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Mindblown/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamtaylor.mindblown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -268,14 +652,105 @@
 		9C1A987C22B39D4A00EE1C84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5RTMJNH82H;
-				INFOPLIST_FILE = Mindblown/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Mindblown/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamtaylor.mindblown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		9CF9B8D122B3A06C0026517B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mindblown Host/Mindblown Host.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mindblown Host/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown-Test-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9CF9B8D222B3A06C0026517B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mindblown Host/Mindblown Host.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Mindblown Host/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown-Test-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9CF9B8F522B3C0CE0026517B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mindblown Preferences Host/Mindblown_Preferences_Host.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mindblown Preferences Host/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown-Preferences-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9CF9B8F622B3C0CE0026517B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mindblown Preferences Host/Mindblown_Preferences_Host.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mindblown Preferences Host/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown-Preferences-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -296,6 +771,24 @@
 			buildConfigurations = (
 				9C1A987B22B39D4A00EE1C84 /* Debug */,
 				9C1A987C22B39D4A00EE1C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF9B8D322B3A06C0026517B /* Build configuration list for PBXNativeTarget "Mindblown Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF9B8D122B3A06C0026517B /* Debug */,
+				9CF9B8D222B3A06C0026517B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF9B8F422B3C0CE0026517B /* Build configuration list for PBXNativeTarget "Mindblown Preferences Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF9B8F522B3C0CE0026517B /* Debug */,
+				9CF9B8F622B3C0CE0026517B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
