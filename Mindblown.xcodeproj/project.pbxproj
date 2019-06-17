@@ -26,9 +26,6 @@
 		9C27094E22B5E96800F16834 /* chicken_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094D22B5E96800F16834 /* chicken_3D.mp4 */; };
 		9C27094F22B5E96800F16834 /* chicken_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094D22B5E96800F16834 /* chicken_3D.mp4 */; };
 		9C27095022B5E96800F16834 /* chicken_3D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27094D22B5E96800F16834 /* chicken_3D.mp4 */; };
-		9CD82F8622B7AA510031C18A /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F8222B7AA4F0031C18A /* skull_2D.mp4 */; };
-		9CD82F8722B7AA510031C18A /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F8222B7AA4F0031C18A /* skull_2D.mp4 */; };
-		9CD82F8822B7AA510031C18A /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F8222B7AA4F0031C18A /* skull_2D.mp4 */; };
 		9CD82F8922B7AA510031C18A /* robot_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F8322B7AA500031C18A /* robot_2D.mp4 */; };
 		9CD82F8A22B7AA510031C18A /* robot_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F8322B7AA500031C18A /* robot_2D.mp4 */; };
 		9CD82F8B22B7AA510031C18A /* robot_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F8322B7AA500031C18A /* robot_2D.mp4 */; };
@@ -38,6 +35,9 @@
 		9CD82F9322B849100031C18A /* alien_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F9222B849100031C18A /* alien_2D.mp4 */; };
 		9CD82F9422B849100031C18A /* alien_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F9222B849100031C18A /* alien_2D.mp4 */; };
 		9CD82F9522B849100031C18A /* alien_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F9222B849100031C18A /* alien_2D.mp4 */; };
+		9CD82F9722B84DBE0031C18A /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F9622B84DBE0031C18A /* skull_2D.mp4 */; };
+		9CD82F9822B84DBE0031C18A /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F9622B84DBE0031C18A /* skull_2D.mp4 */; };
+		9CD82F9922B84DBE0031C18A /* skull_2D.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9CD82F9622B84DBE0031C18A /* skull_2D.mp4 */; };
 		9CF9B8C922B3A06B0026517B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8C822B3A06B0026517B /* AppDelegate.swift */; };
 		9CF9B8CB22B3A06C0026517B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8CA22B3A06C0026517B /* Assets.xcassets */; };
 		9CF9B8CE22B3A06C0026517B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8CC22B3A06C0026517B /* MainMenu.xib */; };
@@ -84,10 +84,10 @@
 		9C27094522B5E95C00F16834 /* alien_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_3D.mp4; sourceTree = "<group>"; };
 		9C27094922B5E96100F16834 /* monkey_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_3D.mp4; sourceTree = "<group>"; };
 		9C27094D22B5E96800F16834 /* chicken_3D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_3D.mp4; sourceTree = "<group>"; };
-		9CD82F8222B7AA4F0031C18A /* skull_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_2D.mp4; sourceTree = "<group>"; };
 		9CD82F8322B7AA500031C18A /* robot_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_2D.mp4; sourceTree = "<group>"; };
 		9CD82F8522B7AA510031C18A /* monkey_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_2D.mp4; sourceTree = "<group>"; };
 		9CD82F9222B849100031C18A /* alien_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_2D.mp4; sourceTree = "<group>"; };
+		9CD82F9622B84DBE0031C18A /* skull_2D.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_2D.mp4; sourceTree = "<group>"; };
 		9CF9B8C622B3A06B0026517B /* Mindblown Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindblown Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF9B8C822B3A06B0026517B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF9B8CA22B3A06C0026517B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 				9CD82F9222B849100031C18A /* alien_2D.mp4 */,
 				9CD82F8522B7AA510031C18A /* monkey_2D.mp4 */,
 				9CD82F8322B7AA500031C18A /* robot_2D.mp4 */,
-				9CD82F8222B7AA4F0031C18A /* skull_2D.mp4 */,
+				9CD82F9622B84DBE0031C18A /* skull_2D.mp4 */,
 			);
 			path = 2D;
 			sourceTree = "<group>";
@@ -390,10 +390,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD82F8622B7AA510031C18A /* skull_2D.mp4 in Resources */,
 				9C27093D22B5CF2400F16834 /* thumbnail.png in Resources */,
 				9CD82F8F22B7AA510031C18A /* monkey_2D.mp4 in Resources */,
 				9CD82F9322B849100031C18A /* alien_2D.mp4 in Resources */,
+				9CD82F9722B84DBE0031C18A /* skull_2D.mp4 in Resources */,
 				9CF9B90A22B4B6530026517B /* robot_3D.mp4 in Resources */,
 				9C27093E22B5CF2400F16834 /* thumbnail@2.png in Resources */,
 				9C27094622B5E95D00F16834 /* alien_3D.mp4 in Resources */,
@@ -410,13 +410,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF9B8CB22B3A06C0026517B /* Assets.xcassets in Resources */,
+				9CD82F9822B84DBE0031C18A /* skull_2D.mp4 in Resources */,
 				9C27091022B4E75100F16834 /* PreferenceSheetController.xib in Resources */,
 				9CD82F9022B7AA510031C18A /* monkey_2D.mp4 in Resources */,
 				9C27094F22B5E96800F16834 /* chicken_3D.mp4 in Resources */,
 				9CF9B90B22B4B6530026517B /* robot_3D.mp4 in Resources */,
 				9CF9B8CE22B3A06C0026517B /* MainMenu.xib in Resources */,
 				9CD82F9422B849100031C18A /* alien_2D.mp4 in Resources */,
-				9CD82F8722B7AA510031C18A /* skull_2D.mp4 in Resources */,
 				9C27094722B5E95D00F16834 /* alien_3D.mp4 in Resources */,
 				9CD82F8A22B7AA510031C18A /* robot_2D.mp4 in Resources */,
 				9C27094B22B5E96200F16834 /* monkey_3D.mp4 in Resources */,
@@ -428,13 +428,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C27091122B4E75100F16834 /* PreferenceSheetController.xib in Resources */,
+				9CD82F9922B84DBE0031C18A /* skull_2D.mp4 in Resources */,
 				9CF9B8EE22B3C0CE0026517B /* Assets.xcassets in Resources */,
 				9CD82F9122B7AA510031C18A /* monkey_2D.mp4 in Resources */,
 				9C27095022B5E96800F16834 /* chicken_3D.mp4 in Resources */,
 				9CF9B90C22B4B6530026517B /* robot_3D.mp4 in Resources */,
 				9CF9B8F122B3C0CE0026517B /* MainMenu.xib in Resources */,
 				9CD82F9522B849100031C18A /* alien_2D.mp4 in Resources */,
-				9CD82F8822B7AA510031C18A /* skull_2D.mp4 in Resources */,
 				9C27094822B5E95D00F16834 /* alien_3D.mp4 in Resources */,
 				9CD82F8B22B7AA510031C18A /* robot_2D.mp4 in Resources */,
 				9C27094C22B5E96200F16834 /* monkey_3D.mp4 in Resources */,
