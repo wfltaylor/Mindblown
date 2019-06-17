@@ -21,6 +21,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 William Taylor. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>MindblownView</string>
+	<string>Mindblown.MindblownView</string>
 </dict>
 </plist>
