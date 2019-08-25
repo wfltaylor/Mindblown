@@ -21,6 +21,6 @@ A screensaver based off graphics and animations from WWDC19
 
 # License
 
-BubbleBlurView is available under the MIT license. See the LICENSE file for more info.
+Mindblown is available under the MIT license. See the LICENSE file for more info.
 
 Original graphics and animations are property of Apple Inc.
